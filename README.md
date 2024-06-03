@@ -6,6 +6,8 @@
 - La libreria de Zod se empleo para crear el tipado de los datos, los esquemas de los datos que se requiere verificar de la API.
 - La libreria de Zustand se utiliza para creae un estado global.
 - La libreria de Axios se implementa para simplificar el llamado a la API.
+- Utiliza las herramientas de desarrollo para ver los datos en consola con la opcion de Redux, para hacerlo debes importar devtools from zustand/middleware y utiliza la funcion devtools en la definicion del hook de zustand.
+- Se utilizo la libreria de spinkit para generar un spinner y mostrar al momento de hacer la consulta.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
